@@ -9,7 +9,3 @@ on:
 jobs:
   build:
     uses: xoxfaby/actions/.github/workflows/dotnet-publish.yml@main
-
-  release-github:
-    needs: release-thunderstore
-    uses: xoxfaby/actions/.github/workflows/release.yml@main
